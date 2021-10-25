@@ -29,34 +29,32 @@ export function ModalLayout({ isOpen, setIsOpen }) {
         <Transition.Root show={isOpen}>
             <Dialog
                 as="div"
-                className="fixed inset-0 z-10 flex items-center justify-center overflow-y-auto m-5"
+                className="fixed inset-0 z-0 flex overflow-y-auto m-5"
                 open={isOpen}
                 onClose={setIsOpen}
             >
-                <div className="flex items-center justify-center text-center">
-                    <Transition.Child
-                        enter="ease-out duration-300"
-                        enterFrom="opacity-0"
-                        enterTo="opacity-100"
-                        leave="ease-in duration-200"
-                        leaveFrom="opacity-100"
-                        leaveTo="opacity-0"
-                    >
-                        <Dialog.Overlay className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
-                    </Transition.Child>
-                    <Transition.Child
-                        enter="ease-out duration-300"
-                        enterFrom="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-                        enterTo="opacity-100 translate-y-0 sm:scale-100"
-                        leave="ease-in duration-200"
-                        leaveFrom="opacity-100 translate-y-0 sm:scale-100"
-                        leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-                    >
-                        <div className="inline-block align-bottom bg-gray-800 rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
-                            <ModalContent isOpen={isOpen} setIsOpen={setIsOpen} />
-                        </div>
-                    </Transition.Child>
-                </div>
+                <Transition.Child
+                    enter="ease-out duration-300"
+                    enterFrom="opacity-0"
+                    enterTo="opacity-100"
+                    leave="ease-in duration-200"
+                    leaveFrom="opacity-100"
+                    leaveTo="opacity-0"
+                >
+                    <Dialog.Overlay className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
+                </Transition.Child>
+                <Transition.Child
+                    enter="ease-out duration-300"
+                    enterFrom="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+                    enterTo="opacity-100 translate-y-0 sm:scale-100"
+                    leave="ease-in duration-200"
+                    leaveFrom="opacity-100 translate-y-0 sm:scale-100"
+                    leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+                >
+                    <div className="bg-gray-800 text-left rounded-lg shadow-xl transform transition-all">
+                        <ModalContent isOpen={isOpen} setIsOpen={setIsOpen} />
+                    </div>
+                </Transition.Child>
             </Dialog >
         </Transition.Root >
     );
@@ -87,7 +85,7 @@ export function ModalContent({ isOpen, setIsOpen }) {
                         <div className="block font-medium text-xs text-offwhite px-4 py-5 sm:p-6">
                             {formFields}
                         </div>
-                        <div className="px-4 py-3 bg-gray-700 text-right sm:px-6 rounded-none">
+                        <div className="px-4 py-3 bg-gray-700 text-right sm:px-6 rounded-t-none rounded-b-lg">
                             <button
                                 type="button"
                                 className="inline-flex justify-center py-2 px-4 mr-3 text-sm font-medium text-gray-400 hover:text-pink-600"
