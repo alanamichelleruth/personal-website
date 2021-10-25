@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/alanamichelleruth/static/css/main.116bbbde.chunk.css",
+    "main.js": "/alanamichelleruth/static/js/main.8bfffdf0.chunk.js",
+    "main.js.map": "/alanamichelleruth/static/js/main.8bfffdf0.chunk.js.map",
+    "runtime-main.js": "/alanamichelleruth/static/js/runtime-main.5cef91e1.js",
+    "runtime-main.js.map": "/alanamichelleruth/static/js/runtime-main.5cef91e1.js.map",
+    "static/js/2.a398ff70.chunk.js": "/alanamichelleruth/static/js/2.a398ff70.chunk.js",
+    "static/js/2.a398ff70.chunk.js.map": "/alanamichelleruth/static/js/2.a398ff70.chunk.js.map",
+    "static/js/3.a1fec104.chunk.js": "/alanamichelleruth/static/js/3.a1fec104.chunk.js",
+    "static/js/3.a1fec104.chunk.js.map": "/alanamichelleruth/static/js/3.a1fec104.chunk.js.map",
+    "index.html": "/alanamichelleruth/index.html",
+    "static/css/main.116bbbde.chunk.css.map": "/alanamichelleruth/static/css/main.116bbbde.chunk.css.map",
+    "static/js/2.a398ff70.chunk.js.LICENSE.txt": "/alanamichelleruth/static/js/2.a398ff70.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/alanamichelleruth/static/media/Galada-Regular.584deee5.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5cef91e1.js",
+    "static/js/2.a398ff70.chunk.js",
+    "static/css/main.116bbbde.chunk.css",
+    "static/js/main.8bfffdf0.chunk.js"
+  ]
+}
