@@ -7,6 +7,7 @@ import WorkPage from './pages/WorkPage';
 import NotWorkPage from './pages/NotWorkPage';
 import BlogPage from './pages/BlogPage';
 import NotFoundPage from './pages/NotFoundPage';
+import ContactMe from './modals/ContactMeModal';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route component={NotFoundPage} exact />
         </Switch>
       </Router>
+      <ContactMe />
     </>
   );
 }
