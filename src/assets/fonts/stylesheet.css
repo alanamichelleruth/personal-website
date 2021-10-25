@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Galada';
+    src: url('Galada-Regular.woff2') format('woff2'),
+        url('Galada-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
