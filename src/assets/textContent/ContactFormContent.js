@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactFormContent = [
     {
-        label: "Name",
+        label: "Name:",
         type: "text",
         id: "name",
         autoComplete: "given-name"

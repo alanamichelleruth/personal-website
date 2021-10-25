@@ -2,9 +2,10 @@ import React from "react";
 
 export default function ContactMeContent() {
     return (
-        <>
-            <h3 className="text-xl font-bold leading-6 text-green-300 mb-3">CONTACT ME</h3>
-            <div className="mt-1 text-xs text-blue-200 break-words">
+        <div className="md:col-span-1">
+            <h3 className="px-4 pt-6 mt-3 mb-3 text-4xl font-galada leading-6 text-pink-400">CONTACT ME</h3>
+            <div className="border-double border-gray-700 border-b-4" />
+            <div className="mt-1 text-xs text-blue-200 break-words md:py-5 px-4 py-3">
                 <p>
                     Like what you see? Don't be shy, contact me!
                     <br />
@@ -18,6 +19,6 @@ export default function ContactMeContent() {
                     If you want current pictures of my foster dogs or to just plain ol' chat on the phone, my number is <a href="tel:+19144200508">+1 (914) 420-0508</a>.
                 </p>
             </div>
-        </>
+        </div>
     )
 }

@@ -29,7 +29,7 @@ export function ModalLayout({ isOpen, setIsOpen }) {
         <Transition.Root show={isOpen}>
             <Dialog
                 as="div"
-                className="fixed inset-0 z-0 flex overflow-y-auto m-5"
+                className="fixed inset-0 z-0 flex justify-center overflow-y-auto m-5"
                 open={isOpen}
                 onClose={setIsOpen}
             >
@@ -75,17 +75,15 @@ export function ModalContent({ isOpen, setIsOpen }) {
     };
 
     return (
-        <div className="md:grid md:grid-cols-3 md:gap-4">
-            <div className="md:col-span-1 md:pl-4 md:pr-0 md:py-5 px-4 py-5">
-                <ContactMeContent />
-            </div>
-            <div className="mt-5 md:mt-0 md:col-span-2 border-double border-gray-700 md:border-l-4 md:border-t-0 border-t-4">
+        <div className="md:grid md:grid-cols-3">
+            <ContactMeContent />
+            <div className="mt-2 md:mt-0 md:col-span-2 border-double border-gray-700 md:border-l-4 md:border-t-0 border-t-4">
                 <form ref={form} onSubmit={sendEmail}>
                     <div className="shadow overflow-hidden">
                         <div className="block font-medium text-xs text-offwhite px-4 py-5 sm:p-6">
                             {formFields}
                         </div>
-                        <div className="px-4 py-3 bg-gray-700 text-right sm:px-6 rounded-t-none rounded-b-lg">
+                        <div className="px-4 py-3 bg-gray-700 text-right sm:px-6 rounded-t-none rounded-b-lg md:rounded-bl-none">
                             <button
                                 type="button"
                                 className="inline-flex justify-center py-2 px-4 mr-3 text-sm font-medium text-gray-400 hover:text-pink-600"
