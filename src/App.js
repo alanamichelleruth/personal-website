@@ -4,7 +4,7 @@ import ResponsiveNavBar from './NavBar';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import WorkPage from './pages/WorkPage';
-import NotWorkPage from './pages/NotWorkPage';
+import InterestsPage from './pages/InterestsPage';
 import BlogPage from './pages/BlogPage';
 import NotFoundPage from './pages/NotFoundPage';
 import ContactMe from './modals/ContactMeModal';
@@ -18,7 +18,7 @@ function App() {
           <Route path="/" component={HomePage} exact />
           <Route path="/about" component={AboutPage} exact />
           <Route path="/work" component={WorkPage} exact />
-          <Route path="/!work" component={NotWorkPage} exact />
+          <Route path="/interests" component={InterestsPage} exact />
           <Route path="/blog" component={BlogPage} exact />
           <Route component={NotFoundPage} exact />
         </Switch>

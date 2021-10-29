@@ -5,7 +5,7 @@ import logo from './assets/logo.png'
 import { Fade as Hamburger } from 'hamburger-react'
 import { Transition } from "@headlessui/react"
 
-const pages = ['About', 'Work', '!Work', 'Blog'];
+const pages = ['About', 'Work', 'Interests', 'Blog'];
 const navLinks = pages.map(page => (
     <NavLink
         key={page}
@@ -20,7 +20,7 @@ const navLinks = pages.map(page => (
 export default function ResponsiveNavBar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     return (
-        <>
+        <div className="z-20">
             <NavBar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
             <Transition
                 show={isMenuOpen}
@@ -36,13 +36,13 @@ export default function ResponsiveNavBar() {
                     {navLinks}
                 </MobileMenu>
             </Transition>
-        </>
+        </div>
     );
 };
 
 function NavBar({ isMenuOpen, setIsMenuOpen }) {
     return (
-        <div className="bg-gray-800 flex place-items-center justify-center justify-between p-4">
+        <div className="absolute w-screen bg-gray-800 z-20 bg-opacity-90 flex place-items-center justify-center justify-between p-4">
             <div className="flex place-items-center place-self-center">
                 <Link to="/">
                     <img className="h-10 w-10" src={logo} alt="Alana Ruth logo" />
