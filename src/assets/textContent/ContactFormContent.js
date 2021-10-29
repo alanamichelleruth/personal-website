@@ -1,26 +1,24 @@
-import React from "react";
-
 const ContactFormContent = [
     {
-        label: "Name:",
+        label: "Name",
         type: "text",
         id: "name",
         autoComplete: "given-name"
     },
     {
-        label: "Email address:",
+        label: "Email address",
         type: "email-address",
         id: "email-address",
         autoComplete: "email"
     },
     {
-        label: "Subject:",
+        label: "Subject",
         type: "text",
         id: "subject",
         autoComplete: "off"
     },
     {
-        label: "Message:",
+        label: "Message",
         id: "message",
         isTextArea: true
     },
