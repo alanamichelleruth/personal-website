@@ -12,7 +12,7 @@ export default function ContactMe() {
     return (
         <>
             <ModalLayout isOpen={isModalOpen} setIsOpen={setIsModalOpen} />
-            <footer className="fixed inset-x-0 bottom-0 flex justify-end">
+            <footer className="fixed inset-x-0 bottom-0 flex justify-end z-50">
                 <button
                     onClick={() => setIsModalOpen(!isModalOpen)}
                     className="rounded-full border-2 border-pink-400 bg-offwhite p-2 m-3"
@@ -29,7 +29,7 @@ export function ModalLayout({ isOpen, setIsOpen }) {
         <Transition.Root show={isOpen}>
             <Dialog
                 as="div"
-                className="fixed inset-0 z-20 w-full flex flex-col content-center md:justify-center h-screen overflow-y-auto"
+                className="fixed inset-0 z-50 w-full flex flex-col content-center md:justify-center h-screen overflow-y-auto"
                 open={isOpen}
                 onClose={setIsOpen}
             >
@@ -90,12 +90,12 @@ export function ModalContent({ isOpen, setIsOpen }) {
             <ContactMeContent />
             <div className="mt-2 md:mt-0 md:col-span-2 border-double border-gray-700 md:border-l-4 md:border-t-0 border-t-4">
                 {/* Show pending banner if email request is pending */}
-                {emailPending && <div className="absolute flex flex-col z-30 bg-blue-100 border border-blue-500 text-xs text-blue-700 p-3 m-2 rounded" role="alert">
+                {emailPending && <div className="absolute flex flex-col z-50 bg-blue-100 border border-blue-500 text-xs text-blue-700 p-3 m-2 rounded" role="alert">
                     <p className="font-bold">Sending</p>
                     <p>...</p>
                 </div>}
                 {/* Show success banner if email request succeeded */}
-                {emailSent && <div className="absolute flex flex-col z-30 bg-green-100 border border-green-500 text-xs text-green-700 p-3 m-2 rounded" role="alert">
+                {emailSent && <div className="absolute flex flex-col z-50 bg-green-100 border border-green-500 text-xs text-green-700 p-3 m-2 rounded" role="alert">
                     <button
                         onClick={() => setEmailSent(!emailSent)}
                         className="absolute top-0 right-0 p-1"
@@ -106,7 +106,7 @@ export function ModalContent({ isOpen, setIsOpen }) {
                     <p>I'm looking forward to chatting! I'll do my best to get back to you within 48 hours.</p>
                 </div>}
                 {/* Show failure banner if email request failed */}
-                {emailFailed && <div className="absolute flex flex-col z-30 bg-red-100 border border-red-500 text-xs text-red-700 p-3 m-2 rounded" role="alert">
+                {emailFailed && <div className="absolute flex flex-col z-50 bg-red-100 border border-red-500 text-xs text-red-700 p-3 m-2 rounded" role="alert">
                     <button
                         onClick={() => setEmailFailed(!emailFailed)}
                         className="absolute top-0 right-0 p-1"

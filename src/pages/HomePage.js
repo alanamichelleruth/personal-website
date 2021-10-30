@@ -6,9 +6,9 @@ export default function HomePage() {
   return (
     <>
       <div className="relative bg-blue-100 lg:flex lg:flex-row overflow-hidden">
-        <div className="z-20 relative lg:w-1/2 lg:h-screen">
+        <div className="z-20 relative lg:w-1/2 lg:h-screen overflow-y-auto">
           <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mb-5 lg:mb-0 mt-28">
-            <div className="text-center lg:text-left overflow-y-scroll">
+            <div className="text-center lg:text-left">
               <h1 className="lg:text-8xl text-6xl font-galada tracking-tight font-extrabold lg:mr-4">
                 <span className="block inline">Hi, my name is</span>
                 <br />
