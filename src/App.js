@@ -5,7 +5,7 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import WorkPage from './pages/WorkPage';
 import InterestsPage from './pages/InterestsPage';
-import BlogPage from './pages/BlogPage';
+// import BlogPage from './pages/BlogPage';
 import NotFoundPage from './pages/NotFoundPage';
 import ContactMe from './modals/ContactMeModal';
 
@@ -19,7 +19,7 @@ function App() {
           <Route path="/about" component={AboutPage} exact />
           <Route path="/work" component={WorkPage} exact />
           <Route path="/interests" component={InterestsPage} exact />
-          <Route path="/blog" component={BlogPage} exact />
+          {/* <Route path="/blog" component={BlogPage} exact /> */}
           <Route component={NotFoundPage} exact />
         </Switch>
       </Router>

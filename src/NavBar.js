@@ -5,7 +5,8 @@ import logo from './assets/logo.png'
 import { Fade as Hamburger } from 'hamburger-react'
 import { Transition } from "@headlessui/react"
 
-const pages = ['About', 'Work', 'Interests', 'Blog'];
+//Blog page TBD
+const pages = ['About', 'Work', 'Interests', /* 'Blog' */];
 const navLinks = pages.map(page => (
     <NavLink
         key={page}
