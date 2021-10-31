@@ -1,7 +1,7 @@
 import './NavBar.css';
 import { React, useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import logo from './assets/logo.png'
+import logo from './../assets/logo.png'
 import { Fade as Hamburger } from 'hamburger-react'
 import { Transition } from "@headlessui/react"
 

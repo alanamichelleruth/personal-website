@@ -3,8 +3,8 @@ import React, { useState, useRef } from 'react';
 import { Dialog, Transition } from '@headlessui/react'
 import emailjs from 'emailjs-com';
 import { RiMailAddLine, RiCloseCircleLine } from "react-icons/ri"
-import ContactMeContent from "./../assets/textContent/ContactMeContent"
-import ContactFormContent from "./../assets/textContent/ContactFormContent"
+import ContactMeContent from "../assets/textContent/ContactMeContent"
+import ContactFormContent from "../assets/textContent/ContactFormContent"
 
 export default function ContactMe() {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -29,7 +29,7 @@ export function ModalLayout({ isOpen, setIsOpen }) {
         <Transition.Root show={isOpen}>
             <Dialog
                 as="div"
-                className="fixed inset-0 z-50 w-full flex flex-col content-center md:justify-center h-screen overflow-y-auto"
+                className="fixed inset-0 z-50 w-full flex flex-col content-center md:justify-center h-screen overflow-y-auto overscroll-y-auto"
                 open={isOpen}
                 onClose={setIsOpen}
             >

@@ -1,13 +1,13 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import ResponsiveNavBar from './NavBar';
+import ResponsiveNavBar from './header/NavBar';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import WorkPage from './pages/WorkPage';
 import InterestsPage from './pages/InterestsPage';
 // import BlogPage from './pages/BlogPage';
 import NotFoundPage from './pages/NotFoundPage';
-import ContactMe from './modals/ContactMeModal';
+import ContactMe from './footer/ContactMeModal';
 
 function App() {
   return (

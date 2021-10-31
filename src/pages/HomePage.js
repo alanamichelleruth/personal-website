@@ -26,7 +26,7 @@ export default function HomePage() {
           <svg
             fill="currentColor"
             viewBox="0 0 100 100"
-            class="absolute inset-y-0 h-screen text-blue-100 w-full"
+            className="absolute inset-y-0 h-screen text-blue-100 w-full"
             preserveAspectRatio="none"
           >
             <polygon points="0,0 100,0 70,100 0,100"></polygon>
@@ -42,25 +42,3 @@ export default function HomePage() {
     </>
   )
 }
-
-// import React from "react";
-// import skydiving from './../assets/images/skydiving.jpeg'
-// import HomePageContent from './../assets/textContent/HomePageContent.js'
-
-// export default function HomePage() {
-//     return (
-//         <>
-//             <div className="flex flex-row h-screen overflow-hidden bg-contain bg-pink-600">
-//                 <div className="relative z-10 w-2/3 px-6 my-20 py-8 ">
-//                     <h2 className="font-galada font-thin text-8xl text-offwhite">Hi, my name's Alana Ruth</h2>
-//                     <p className="text-lg w-1/2">
-//                         {HomePageContent}
-//                     </p>
-//                 </div>
-//             </div>
-//             <div className="absolute top-0 right-0 block w-3/4 h-full">
-//                 <img alt="Snowy mountain lake" className="object-cover min-w-full h-full" src={skydiving} />
-//             </div>
-//         </>
-//     )
-// }
