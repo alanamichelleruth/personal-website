@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.8270bf30.chunk.css",
-    "main.js": "/static/js/main.ff972b13.chunk.js",
-    "main.js.map": "/static/js/main.ff972b13.chunk.js.map",
+    "main.css": "/static/css/main.d7283d02.chunk.css",
+    "main.js": "/static/js/main.330127d0.chunk.js",
+    "main.js.map": "/static/js/main.330127d0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ffcb482c.js",
     "runtime-main.js.map": "/static/js/runtime-main.ffcb482c.js.map",
     "static/js/2.db616332.chunk.js": "/static/js/2.db616332.chunk.js",
@@ -10,15 +10,34 @@
     "static/js/3.a1fec104.chunk.js": "/static/js/3.a1fec104.chunk.js",
     "static/js/3.a1fec104.chunk.js.map": "/static/js/3.a1fec104.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.8270bf30.chunk.css.map": "/static/css/main.8270bf30.chunk.css.map",
+    "static/css/main.d7283d02.chunk.css.map": "/static/css/main.d7283d02.chunk.css.map",
     "static/js/2.db616332.chunk.js.LICENSE.txt": "/static/js/2.db616332.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Galada-Regular.584deee5.woff2",
-    "static/media/skydiving.1dc36870.jpeg": "/static/media/skydiving.1dc36870.jpeg"
+    "static/media/angelica.625e2b4f.jpg": "/static/media/angelica.625e2b4f.jpg",
+    "static/media/booboo.69af69b9.jpg": "/static/media/booboo.69af69b9.jpg",
+    "static/media/coloradoHiking.758d3e20.jpeg": "/static/media/coloradoHiking.758d3e20.jpeg",
+    "static/media/daphne.6f4905c3.jpg": "/static/media/daphne.6f4905c3.jpg",
+    "static/media/hobbitton.a824083a.jpeg": "/static/media/hobbitton.a824083a.jpeg",
+    "static/media/holland.c4f9e22e.jpeg": "/static/media/holland.c4f9e22e.jpeg",
+    "static/media/israel.32ab83e8.jpeg": "/static/media/israel.32ab83e8.jpeg",
+    "static/media/jacob.32ff07e7.jpg": "/static/media/jacob.32ff07e7.jpg",
+    "static/media/london.fc2cb0f5.jpeg": "/static/media/london.fc2cb0f5.jpeg",
+    "static/media/mila.513d2b4f.jpg": "/static/media/mila.513d2b4f.jpg",
+    "static/media/painting1.993b5a9c.jpg": "/static/media/painting1.993b5a9c.jpg",
+    "static/media/painting2.54a76468.jpeg": "/static/media/painting2.54a76468.jpeg",
+    "static/media/pisa.bb689abc.jpeg": "/static/media/pisa.bb689abc.jpeg",
+    "static/media/puertoRico.cd976d98.jpeg": "/static/media/puertoRico.cd976d98.jpeg",
+    "static/media/queenstown.cab45285.jpeg": "/static/media/queenstown.cab45285.jpeg",
+    "static/media/safari.82fd3492.jpeg": "/static/media/safari.82fd3492.jpeg",
+    "static/media/skiing.05b75046.jpeg": "/static/media/skiing.05b75046.jpeg",
+    "static/media/skydiving.1dc36870.jpeg": "/static/media/skydiving.1dc36870.jpeg",
+    "static/media/surfing.0ec53709.jpeg": "/static/media/surfing.0ec53709.jpeg",
+    "static/media/watercolor.7df7351e.png": "/static/media/watercolor.7df7351e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ffcb482c.js",
     "static/js/2.db616332.chunk.js",
-    "static/css/main.8270bf30.chunk.css",
-    "static/js/main.ff972b13.chunk.js"
+    "static/css/main.d7283d02.chunk.css",
+    "static/js/main.330127d0.chunk.js"
   ]
 }
