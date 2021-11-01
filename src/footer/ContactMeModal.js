@@ -29,7 +29,7 @@ export function ModalLayout({ isOpen, setIsOpen }) {
         <Transition.Root show={isOpen}>
             <Dialog
                 as="div"
-                className="fixed inset-0 z-50 w-full flex flex-col content-center md:justify-center h-screen overflow-y-auto overscroll-y-auto"
+                className="fixed inset-0 z-50 w-full flex flex-col content-center md:justify-center h-full overflow-y-auto overscroll-y-auto"
                 open={isOpen}
                 onClose={setIsOpen}
             >
