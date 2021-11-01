@@ -8,6 +8,7 @@ import InterestsPage from './pages/InterestsPage';
 // import BlogPage from './pages/BlogPage';
 import NotFoundPage from './pages/NotFoundPage';
 import ContactMe from './footer/ContactMeModal';
+import ScrollToTop from './footer/scrollToTop';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         </Switch>
       </Router>
       <ContactMe />
+      <ScrollToTop />
     </>
   );
 }

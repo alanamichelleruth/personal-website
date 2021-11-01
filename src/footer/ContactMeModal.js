@@ -15,7 +15,7 @@ export default function ContactMe() {
             <footer className="fixed inset-x-0 bottom-0 flex justify-end z-50">
                 <button
                     onClick={() => setIsModalOpen(!isModalOpen)}
-                    className="rounded-full border-2 border-pink-400 bg-offwhite p-2 m-3"
+                    className="rounded-full border-2 border-pink-400 p-2 m-3"
                 >
                     <RiMailAddLine color="#F472B6" size="1.75em" />
                 </button>
