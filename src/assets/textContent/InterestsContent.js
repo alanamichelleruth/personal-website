@@ -11,6 +11,9 @@ import skiing from './../images/surf_ski/skiing.jpeg'
 import surfing from './../images/surf_ski/surfing.jpeg'
 import painting1 from './../images/painting/painting1.jpg'
 import painting2 from './../images/painting/painting2.jpeg'
+import pumpkinBread from './../images/baking/pumpkinBread.jpeg'
+import bagels from './../images/baking/bagels.jpeg'
+import cinammonRolls from './../images/baking/cinammonRolls.jpeg'
 import family from './../images/family_friends/family.jpeg'
 import jambo from './../images/family_friends/jambo.jpeg'
 import cityGals from './../images/family_friends/cityGals.jpeg'
@@ -104,9 +107,28 @@ const InterestsContent = [
         ]
     },
     {
-        title: "Family & Friends",
-        subtitle: "Saved the best for last ;)",
+        title: "Baking",
+        subtitle: "I like to satisfy my sweet tooth by trying new recipes",
         backgroundColor:"bg-indigo-100",
+        images: [
+            {
+                "src": pumpkinBread,
+                "alt": "Alana's homemade pumpkin bread"
+            },
+            {
+                "src": bagels,
+                "alt": "Alana's homemade everything bagels"
+            },
+            {
+                "src": cinammonRolls,
+                "alt": "Alana's homemade cinammon rolls"
+            }
+        ]
+    },
+    {
+        title: "Family & Friends",
+        subtitle: "Saved the best for last ♡ ;)",
+        backgroundColor:"bg-violet-100",
         images: [
             {
                 "src": family,
