@@ -26,12 +26,12 @@ export default function ResponsiveNavBar() {
             <Transition
                 show={isMenuOpen}
                 className="absolute z-30 sm:hidden"
-                enter="ease-out duration-300"
-                enterFrom="opacity-0"
-                enterTo="opacity-100"
-                leave="ease-in duration-200"
-                leaveFrom="opacity-100"
-                leaveTo="opacity-0"
+                enter="transition ease duration-700 transform"
+                enterFrom="opacity-0 -translate-y-full"
+                enterTo="opacity-100 translate-y-0"
+                leave="transition ease duration-1000 transform"
+                leaveFrom="opacity-100 translate-y-0"
+                leaveTo="opacity-0 -translate-y-full"
             >
                 <MobileMenu>
                     {navLinks}
@@ -43,7 +43,7 @@ export default function ResponsiveNavBar() {
 
 function NavBar({ isMenuOpen, setIsMenuOpen }) {
     return (
-        <div className="absolute w-screen bg-gray-800 z-30 bg-opacity-90 flex place-items-center justify-center justify-between p-4">
+        <div className="sticky top-0 bg-gray-800 z-30 bg-opacity-90 flex place-items-center justify-center justify-between p-4">
             <div className="flex place-items-center place-self-center">
                 <Link to="/">
                     <img className="h-10 w-10" src={logo} alt="Alana Ruth logo" />
@@ -62,7 +62,7 @@ function NavBar({ isMenuOpen, setIsMenuOpen }) {
 
 function MobileMenu({ children }) {
     return (
-        <div className="absolute z-30 w-screen mt-20 bg-gray-700">
+        <div className="z-30 w-screen bg-gray-700">
             <div className="p-2 flex flex-col items-center space-y-3 p-5">
                 {children}
             </div>
