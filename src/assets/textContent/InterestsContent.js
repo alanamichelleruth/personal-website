@@ -44,16 +44,16 @@ const InterestsContent = [
         backgroundColor:"bg-orange-100",
         images: [
             {
-                "src": mila,
-                "alt": "Foster dog Mila from Hearts and Bones Rescue"
+                src: mila,
+                alt: "Foster dog Mila from Hearts and Bones Rescue"
             },
             {
-                "src": angelica,
-                "alt": "Foster dog Angelica from Hearts and Bones Rescue"
+                src: angelica,
+                alt: "Foster dog Angelica from Hearts and Bones Rescue"
             },
             {
-                "src": jacob,
-                "alt": "Foster dog Jacob from Hearts and Bones Rescue"
+                src: jacob,
+                alt: "Foster dog Jacob from Hearts and Bones Rescue"
             }
         ]
     },
@@ -63,16 +63,16 @@ const InterestsContent = [
         backgroundColor:"bg-yellow-100",
         images: [
             {
-                "src": coloradoHiking,
-                "alt": "Alana and her Dad hiking in Colorado"
+                src: coloradoHiking,
+                alt: "Alana and her Dad hiking in Colorado"
             },
             {
-                "src": puertoRico,
-                "alt": "Alana in the El Yunque National Rain Forest in Puerto Rico"
+                src: puertoRico,
+                alt: "Alana in the El Yunque National Rain Forest in Puerto Rico"
             },
             {
-                "src": queenstown,
-                "alt": "Alana in Queenstown, New Zealand"
+                src: queenstown,
+                alt: "Alana in Queenstown, New Zealand"
             }
         ]
     },
@@ -82,12 +82,12 @@ const InterestsContent = [
         backgroundColor:"bg-emerald-100",
         images: [
             {
-                "src": skiing,
-                "alt": "Alana skiing in Vermont"
+                src: skiing,
+                alt: "Alana skiing in Vermont"
             },
             {
-                "src": surfing,
-                "alt": "Alana surfing at LBI"
+                src: surfing,
+                alt: "Alana surfing at LBI"
             }
         ]
     },
@@ -97,12 +97,12 @@ const InterestsContent = [
         backgroundColor:"bg-sky-100",
         images: [
             {
-                "src": painting1,
-                "alt": "Group of fluid acrylic paintings by Alana in 2020"
+                src: painting1,
+                alt: "Group of fluid acrylic paintings by Alana in 2020"
             },
             {
-                "src": painting2,
-                "alt": "Close up of fluid acrylic painting by Alana in 2020"
+                src: painting2,
+                alt: "Close up of fluid acrylic painting by Alana in 2020"
             }
         ]
     },
@@ -112,16 +112,16 @@ const InterestsContent = [
         backgroundColor:"bg-indigo-100",
         images: [
             {
-                "src": pumpkinBread,
-                "alt": "Alana's homemade pumpkin bread"
+                src: pumpkinBread,
+                alt: "Alana's homemade pumpkin bread"
             },
             {
-                "src": bagels,
-                "alt": "Alana's homemade everything bagels"
+                src: bagels,
+                alt: "Alana's homemade everything bagels"
             },
             {
-                "src": cinammonRolls,
-                "alt": "Alana's homemade cinammon rolls"
+                src: cinammonRolls,
+                alt: "Alana's homemade cinammon rolls"
             }
         ]
     },
@@ -131,16 +131,16 @@ const InterestsContent = [
         backgroundColor:"bg-violet-100",
         images: [
             {
-                "src": family,
-                "alt": "Ruth Family circa 2020"
+                src: family,
+                alt: "Ruth Family circa 2020"
             },
             {
-                "src": jambo,
-                "alt": "Alana and friends from the Jambo team at Baobab Beach Resort, Kenya"
+                src: jambo,
+                alt: "Alana and friends from the Jambo team at Baobab Beach Resort, Kenya"
             },
             {
-                "src": cityGals,
-                "alt": "Alana and city friends"
+                src: cityGals,
+                alt: "Alana and city friends"
             },
         ]
     }

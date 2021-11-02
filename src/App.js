@@ -8,7 +8,7 @@ import InterestsPage from './pages/InterestsPage';
 // import BlogPage from './pages/BlogPage';
 import NotFoundPage from './pages/NotFoundPage';
 import ContactMe from './footer/ContactMeModal';
-import ScrollToTop from './footer/scrollToTop';
+import ScrollToTop from './footer/ScrollToTop';
 
 function App() {
   return (
