@@ -9,6 +9,17 @@ module.exports = {
         sans: ['Helvetica', 'Arial', 'sans-serif'],
         galada: ['Galada']
       },
+      backgroundImage: {
+        'who': "url('./assets/images/about/who.jpeg')",
+        'what': "url('./assets/images/about/what.jpeg')",
+        'when': "url('./assets/images/about/when.jpeg')",
+        'where': "url('./assets/images/about/where.jpeg')",
+        'why': "url('./assets/images/about/why.jpeg')",
+        'how': "url('./assets/images/about/how.jpeg')",
+      },
+      flex: {
+        5: 5
+      }
     },
     colors: {
       current: 'currentColor',

@@ -12,7 +12,7 @@ const navLinks = pages.map(page => (
         key={page}
         className="no-underline font-galada text-offwhite text-3xl hover:text-pink-400 visited:text-offwhite"
         activeClassName="active"
-        exact to={`/${page}`}
+        exact to={`/${page.toLowerCase()}`}
     >
         {page}
     </NavLink>
@@ -43,7 +43,7 @@ export default function ResponsiveNavBar() {
 
 function NavBar({ isMenuOpen, setIsMenuOpen }) {
     return (
-        <div className="sticky top-0 bg-gray-800 z-30 bg-opacity-90 flex place-items-center justify-center justify-between p-4">
+        <div className="sticky top-0 bg-gray-800 z-30 bg-opacity-90 flex place-items-center justify-center justify-between p-4 backdrop-filter backdrop-blur-sm">
             <div className="flex place-items-center place-self-center">
                 <Link to="/">
                     <img className="h-10 w-10" src={logo} alt="Alana Ruth logo" />
