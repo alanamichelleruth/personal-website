@@ -59,6 +59,8 @@ module.exports = {
       ringColor: ['hover'],
       borderColor: ['hover'],
       backgroundColor: ['hover'],
+      flexGrow: ['responsive', 'hover'],
+      cursor: ['responsive', 'hover'],
     },
   },
   plugins: [],
