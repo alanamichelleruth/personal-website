@@ -7,7 +7,7 @@ const AboutContent = [
     {
         title: "What?",
         paragraph: `Demographically speaking, I identify as a white, not hispanic or latino, non-transgender, heterosexual woman.
-                    I do not have any disabilities nor am I a veteran. I am 1/2 German and 1/2 Austrian in decent.`,
+                    I do not have any disabilities nor am I a veteran. I am 1/2 German, 1/4 Austrian, and 1/4 Australian in decent.`,
         backgroundImage:"bg-what"
     },
     {

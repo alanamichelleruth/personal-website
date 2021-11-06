@@ -1,3 +1,8 @@
 .slide:hover {
   flex: 10;
 }
+
+.swiper-pagination-bullets{
+  bottom: 0px !important;
+  --swiper-theme-color: #EC4899;
+}
