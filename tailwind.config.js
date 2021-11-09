@@ -61,6 +61,8 @@ module.exports = {
       backgroundColor: ['hover'],
       flexGrow: ['responsive', 'hover'],
       cursor: ['responsive', 'hover'],
+      scale: ['group-hover'],
+      translate: ['group-hover']
     },
   },
   plugins: [],

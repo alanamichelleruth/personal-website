@@ -17,11 +17,11 @@ SwiperCore.use([Pagination]);
 
 export default function AboutPage() {
     const isMediaMobile = useReactSimpleMatchMedia('(max-width: 768px)');
-    console.log(isMediaMobile)
+    
     return (
         <div className="absolute top-0">
             <div className="fixed top-0 w-screen h-1/2 bg-indigo-100" />
-            <div className="fixed bottom-0 w-screen h-1/2 bg-yellow-50" />
+            <div className="fixed bottom-0 w-screen h-1/2 bg-yellow-100" />
 
             <div className="w-screen h-screen flex flex-row flex-nowrap items-center justify-center">
                 <div className="flex w-5/6 h-2/3 filter drop-shadow-2xl">
