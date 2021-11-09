@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca573b2e.chunk.css",
-    "main.js": "/static/js/main.4327f9b9.chunk.js",
-    "main.js.map": "/static/js/main.4327f9b9.chunk.js.map",
+    "main.css": "/static/css/main.6c16e27c.chunk.css",
+    "main.js": "/static/js/main.0d1c4af1.chunk.js",
+    "main.js.map": "/static/js/main.0d1c4af1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.87cac272.js",
     "runtime-main.js.map": "/static/js/runtime-main.87cac272.js.map",
     "static/css/2.cda5cf48.chunk.css": "/static/css/2.cda5cf48.chunk.css",
@@ -12,15 +12,20 @@
     "static/js/3.02fb25b4.chunk.js.map": "/static/js/3.02fb25b4.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.cda5cf48.chunk.css.map": "/static/css/2.cda5cf48.chunk.css.map",
-    "static/css/main.ca573b2e.chunk.css.map": "/static/css/main.ca573b2e.chunk.css.map",
+    "static/css/main.6c16e27c.chunk.css.map": "/static/css/main.6c16e27c.chunk.css.map",
     "static/js/2.33287847.chunk.js.LICENSE.txt": "/static/js/2.33287847.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/why.d6423cdb.jpeg",
+    "static/media/MSCoreValues.926c6d43.jpeg": "/static/media/MSCoreValues.926c6d43.jpeg",
+    "static/media/MSHeadquarters.0c156a52.jpeg": "/static/media/MSHeadquarters.0c156a52.jpeg",
+    "static/media/RA.02097481.jpeg": "/static/media/RA.02097481.jpeg",
     "static/media/angelica.625e2b4f.jpg": "/static/media/angelica.625e2b4f.jpg",
     "static/media/bagels.c94850d7.jpeg": "/static/media/bagels.c94850d7.jpeg",
     "static/media/cinammonRolls.a2b82132.jpeg": "/static/media/cinammonRolls.a2b82132.jpeg",
     "static/media/cityGals.81ffe911.jpeg": "/static/media/cityGals.81ffe911.jpeg",
+    "static/media/coding.24f41c11.jpg": "/static/media/coding.24f41c11.jpg",
     "static/media/coloradoHiking.758d3e20.jpeg": "/static/media/coloradoHiking.758d3e20.jpeg",
     "static/media/family.41045bec.jpeg": "/static/media/family.41045bec.jpeg",
+    "static/media/graduation.22079526.jpeg": "/static/media/graduation.22079526.jpeg",
     "static/media/hobbitton.a824083a.jpeg": "/static/media/hobbitton.a824083a.jpeg",
     "static/media/jacob.32ff07e7.jpg": "/static/media/jacob.32ff07e7.jpg",
     "static/media/jambo.6b36adb1.jpeg": "/static/media/jambo.6b36adb1.jpeg",
@@ -28,6 +33,7 @@
     "static/media/mila.513d2b4f.jpg": "/static/media/mila.513d2b4f.jpg",
     "static/media/painting1.993b5a9c.jpg": "/static/media/painting1.993b5a9c.jpg",
     "static/media/painting2.54a76468.jpeg": "/static/media/painting2.54a76468.jpeg",
+    "static/media/panel.8cfb8f8d.jpeg": "/static/media/panel.8cfb8f8d.jpeg",
     "static/media/puertoRico.cd976d98.jpeg": "/static/media/puertoRico.cd976d98.jpeg",
     "static/media/pumpkinBread.900180f7.jpeg": "/static/media/pumpkinBread.900180f7.jpeg",
     "static/media/queenstown.cab45285.jpeg": "/static/media/queenstown.cab45285.jpeg",
@@ -40,7 +46,7 @@
     "static/js/runtime-main.87cac272.js",
     "static/css/2.cda5cf48.chunk.css",
     "static/js/2.33287847.chunk.js",
-    "static/css/main.ca573b2e.chunk.css",
-    "static/js/main.4327f9b9.chunk.js"
+    "static/css/main.6c16e27c.chunk.css",
+    "static/js/main.0d1c4af1.chunk.js"
   ]
 }
